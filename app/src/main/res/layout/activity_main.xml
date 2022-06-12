@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Panjang"/>
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar"/>
+
+    <Button
+        android:id="@+id/btn_hitung_luas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas"/>
+
+    <Button
+        android:id="@+id/btn_hitung_keliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling"/>
+
+    <TextView
+        android:id="@+id/tv_hasil_PP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"/>
+
+    <TextView
+        android:id="@+id/tv_hasil_P"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"/>
+
+</LinearLayout>
